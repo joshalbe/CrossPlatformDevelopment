@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 5689599520544016113}
   - component: {fileID: 8890407728527944701}
   - component: {fileID: 2699933259866810734}
+  - component: {fileID: 7064030840847554239}
   m_Layer: 0
   m_Name: ProductionTower
   m_TagString: Untagged
@@ -291,6 +292,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &7064030840847554239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4602643237569145347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e174f88c53400f0478208adea51aaf94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spinspeed: 20
+  _player: {fileID: 4587212994176297650, guid: 47af6b532fd911544a666c7a5be1adc9, type: 3}
 --- !u!1 &5171436790129948061
 GameObject:
   m_ObjectHideFlags: 0
